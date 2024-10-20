@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primary-c{
+  color:#578cbc;
+}
+.secondary-c{
+  color:#19376d;
+}
+.dark-c{
+  color:#032447;
+}
+.bg-c{
+  background-color:#04152d;
+}
+.roboto{
+  font-family: "Roboto";
+}
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+  font-family: "outfit",Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color:#04152d;
+}
+:root {
+  /* Colours */
+  --color-text: #fff;
+  --color-primary: #576cbc;
+  --color-secondary: #19376d;
+  --color-dark: #0b2447;
+  --color-bg: #04152d;
+
+  /* Fonts */
+  --font-roboto: "Roboto";
+}
+
